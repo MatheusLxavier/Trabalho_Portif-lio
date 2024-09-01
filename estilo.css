@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background-color: #8d6657;
+}
+/*#647e8d azul cinzento  #676462 cinza* #c1775e marrom pele #2a2625 preto cabelo #8d6657 marrom barba*/
+
+.menu {
+    grid-column-start: 6;
+    grid-column-end: 12;
+    justify-content: center; /*centraliza o menu*/
+    margin-top: 20px; /*ajusta a margem em relação a parte superior*/
+    font-size: 20px;  /*ajusta tamanho da fonte*/
+}
+
+
+.fonte{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Fonte padrão das páginas*/
+}
+
+.perfil {
+    width: 300px;
+    height: 400px
+}
+
+.img {
+    width: 300px;
+    height: 300px
+}
+
+.imagem1{
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.imagemperfil{
+    max-width: 100%;
+    margin-left: 10px;
+}
+
+.imagem{
+    max-width: 100%;
+}
+
+.principal {
+    grid-column-start: 4;
+    grid-column-end: 12;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background-color: #676462;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    color: #36221b;
+}
+
+a, a:link {
+    text-decoration: none;
+    padding: 8px 16px;
+    border: solid #647e8d 1px;
+    color: #2a2625;
+}
+
+li {
+    float: left;
+}
+
+a:hover {
+    background-color: #c1775e;
+    color: white;
+}
+
+.text {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #676462;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+    font-size: large;
+}
+input, textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: gainsboro;
+}
+button {
+    padding: 10px 20px;
+    background-color: #647e8d;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario {
+    grid-column-start: 4;
+    grid-column-end: 12;
+    padding-right: 450px;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
